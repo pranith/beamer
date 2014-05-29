@@ -1,0 +1,68 @@
+\documentclass{beamer}
+\definecolor{links}{HTML}{2A1B81}
+\hypersetup{colorlinks,linkcolor=,urlcolor=links}
+\usetheme{Boadilla}
+\usecolortheme{dolphin}
+
+\usepackage{mathtools}
+\usepackage{easylist}
+\usepackage{graphicx} 
+\usepackage{comment}
+
+\let\oldfootnotesize\footnotesize
+\renewcommand*{\footnotesize}{\oldfootnotesize\tiny}
+
+%\renewcommand{\labelitemi}{$\bullet$}
+%\renewcommand{\labelitemii}{$\cdot$}
+%\renewcommand{\labelitemiii}{$\diamond$}
+%\renewcommand{\labelitemiv}{$\ast$}
+
+\title[Short Title]{\textit{Talk}: Title of the Talk}
+\author{Pranith Kumar}
+\institute[GT]
+{
+  Georgia Tech \\
+  \textit{pranith@gatech.edu}
+}
+\date{\today}
+
+\begin{document}
+\begin{frame}
+\titlepage
+\end{frame}
+
+\begin{frame}
+\frametitle{Overview}
+\tableofcontents
+\end{frame}
+
+\section{Section 1}
+
+\subsection{subsection}
+\begin{frame}
+\frametitle{Frame 1}
+\begin{itemize}
+\item[-] First Line
+\end{itemize}
+\end{frame}
+
+\begin{comment}
+\begin{frame}
+\frametitle{}
+\begin{itemize}
+\item[-]
+\end{itemize}
+\end{frame}
+\end{comment}
+
+\begin{frame}
+\frametitle{Questions}
+\end{frame}
+
+\begin{comment}
+\begin{frame}
+\frametitle{Backup}
+\end{frame}
+\end{comment}
+
+\end{document}
